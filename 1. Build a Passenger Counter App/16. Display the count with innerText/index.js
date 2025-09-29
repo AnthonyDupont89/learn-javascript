@@ -1,7 +1,7 @@
 // grab the count-el element, store it in a countEl variable
 let count = 0
 let countEl = document.getElementById(id="count-el")
-console.log(countEl);
+// console.log(countEl);
 
 function increment() {
     count = count + 1
