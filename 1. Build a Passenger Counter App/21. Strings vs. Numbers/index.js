@@ -7,8 +7,10 @@ let myGreeting = greeting + name
 // let bonusPoints = "10"
 
 // let totalPoints = points + bonusPoints
+// console.log(totalPoints);
 
-console.log(4 + 5) 
-console.log("2" + "4")
-console.log("5" + 1)
-console.log(100 + "100")
+
+console.log(4 + 5) // 9
+console.log("2" + "4") // 24
+console.log("5" + 1) // 51
+console.log(100 + "100") // 100100
