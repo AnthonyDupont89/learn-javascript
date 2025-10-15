@@ -1,6 +1,6 @@
 let firstCard = 10
 let secondCard = 11
-let sum = firstCard + secondCard + 3
+let sum = firstCard + secondCard
 let hasBlackJack = false
 // 1. Create a variable called isAlive and assign it to true
 let isAlive = true
