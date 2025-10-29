@@ -4,6 +4,12 @@ const inputBtn = document.getElementById("input-btn")
 const ulEl = document.getElementById("ul-el")
 
 let leadsFromLocalStorage = JSON.parse( localStorage.getItem("myLeads") )
+console.log(leadsFromLocalStorage);
+
+if (leadsFromLocalStorage) {
+    myLeads = leadsFromLocalStorage
+    renderLeads()
+}
 
 // 1. Check if leadsFromLocalStorage is truthy
 // 2. If so, set myLeads to its value and call renderLeads()
